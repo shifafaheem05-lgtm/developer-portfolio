@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" fill="none">
+  <defs>
+    <radialGradient id="sphere" cx="0" cy="0" r="1" gradientTransform="matrix(260 230 -230 260 190 150)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E6D6B7"/><stop offset=".22" stop-color="#B49A6D"/><stop offset=".58" stop-color="#514633"/><stop offset="1" stop-color="#15130F"/>
+    </radialGradient>
+    <linearGradient id="shine" x1="110" x2="490" y1="130" y2="430" gradientUnits="userSpaceOnUse"><stop stop-color="#FFF5DC" stop-opacity=".7"/><stop offset="1" stop-color="#FFF5DC" stop-opacity="0"/></linearGradient>
+    <filter id="blur" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="22"/></filter>
+  </defs>
+  <circle cx="300" cy="300" r="250" stroke="#BDA477" stroke-opacity=".18" transform="rotate(-25 300 300)"/>
+  <ellipse cx="300" cy="300" rx="245" ry="145" stroke="#BDA477" stroke-opacity=".23" transform="rotate(35 300 300)"/>
+  <circle cx="300" cy="300" r="155" fill="url(#sphere)"/>
+  <ellipse cx="250" cy="205" rx="92" ry="40" fill="url(#shine)" filter="url(#blur)" transform="rotate(-35 250 205)"/>
+  <path d="M155 315c90-100 200-150 300-155" stroke="#E8D8B8" stroke-opacity=".3" stroke-width="1.5"/>
+  <circle cx="465" cy="165" r="4" fill="#D8C39A"/><circle cx="115" cy="405" r="3" fill="#D8C39A"/>
+</svg>
